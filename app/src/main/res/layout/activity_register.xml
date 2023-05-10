@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20sp"
+        android:paddingTop="30sp"
+        android:layout_marginLeft="28sp"
+        android:layout_marginRight="28sp"
+        android:src="@drawable/logoo"/>
+
+
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_mail_24"
+        android:hint="   Mail"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:hint="  Password "
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:inputType="textPassword"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/etPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:hint="  Confirm Password "
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:inputType="textPassword"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:rotationX="4"
+        android:shadowColor="#8A1B1B"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:rippleColor="#FAFAFA"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        app:strokeColor="#AA2C2C"
+        tools:visibility="visible" />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

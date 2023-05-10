@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tp1_g82">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tp1_g82"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.tp1_g82.Video"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tp1_g82.Voice"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tp1_g82.Login"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tp1_g82.Signup"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tp1_g82.Score"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tp1_g82.Quiz5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tp1_g82.Quiz4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tp1_g82.Quiz3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tp1_g82.Quiz2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tp1_g82.Quiz1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tp1_g82.Register"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tp1_g82.MapsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tp1_g82.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA8H98XT3SAtZfUCduz4APdMpJs5lb3sg4" />
+    </application>
+
+</manifest>

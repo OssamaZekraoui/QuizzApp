@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Voice"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100sp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:src="@drawable/q7"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="60sp"
+
+        >
+
+        <Button
+            android:id="@+id/btnRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:includeFontPadding="false"
+            android:rotationX="4"
+            android:shadowColor="#8A1B1B"
+            android:text="Record"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:rippleColor="#FAFAFA"
+            app:strokeColor="#AA2C2C"
+            tools:visibility="visible"
+            android:onClick="btnRecordPressed"/>
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:includeFontPadding="false"
+            android:rotationX="4"
+            android:shadowColor="#8A1B1B"
+            android:text="Stop"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:rippleColor="#FAFAFA"
+            app:strokeColor="#AA2C2C"
+            tools:visibility="visible"
+            android:onClick="btnStopPressed"/>
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:includeFontPadding="false"
+            android:rotationX="4"
+            android:shadowColor="#8A1B1B"
+            android:text="Play"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:rippleColor="#FAFAFA"
+            app:strokeColor="#AA2C2C"
+            tools:visibility="visible"
+            android:onClick="btnPlayPressed"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/logo"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
